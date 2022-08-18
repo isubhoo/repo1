@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="c1" class="com.zee.CustomerProject.CustomerClass">
+    <property name="name" value="Subhajit"></property>
+    <property name="url" value="1"></property>
+    </bean>
+    <bean id="c2" class="com.zee.CustomerProject.CustomerClass">
+    <property name="name" value="Rhububyb"></property>
+    <property name="url" value="2"></property>
+    </bean>
+    <bean id="c3" class="com.zee.CustomerProject.CustomerClass">
+    <property name="name" value="Karan"></property>
+    <property name="url" value="3"></property>
+    </bean>
+
+</beans>
